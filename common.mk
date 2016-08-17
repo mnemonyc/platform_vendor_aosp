@@ -108,7 +108,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libffmpeg_extractor \
     libffmpeg_omx \
-    media_codecs_ffmpeg.xml
+    media_codecs_ffmpeg.xml4
+
+# Custom Hardware Hardware Abstraction Framework
+PRODUCT_PACKAGES += \
+    com.custom.hardware \
+    com.custom.hardware.xml
 
 PRODUCT_PROPERTY_OVERRIDES += \
     media.sf.omx-plugin=libffmpeg_omx.so \
